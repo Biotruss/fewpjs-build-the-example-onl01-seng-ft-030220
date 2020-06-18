@@ -9,6 +9,7 @@ const modal = document.getElementById('modal')
 const modalMessage = document.getElementById('modal-message')
 let currentLike
 
+
 const updateLike = like => {
   if (like.innerHTML === EMPTY_HEART) {
     like.innerHTML = FULL_HEART
@@ -35,7 +36,6 @@ like_glyphs.forEach(like => {
       })
   })
 })
-
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
